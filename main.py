@@ -24,9 +24,19 @@ def countchars(txt):
 
     return chardict
 
+def sort_on(dict):
+    return dict["num"]
+
+
 def generatereport(path,words,chars):
     print(f"--- Begin report of {path} ---")
     print(f"{words} words found in the document\n")
+
+    wordlist = list(words)
+    print(wordlist)
+
+
+
 
 
 
